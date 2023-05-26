@@ -1,0 +1,83 @@
+.contact {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1f22;
+    color: white;
+    padding-top: 5px;
+
+    .container {
+        width: 1340px;
+        display: flex;
+        align-items: center;
+
+        .droit {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+            margin-top: 5px;
+
+            h4 {
+                font-family: 'Rajdhani', sans-serif;
+                font-weight: 400;
+                font-size: 28px;
+
+            }
+
+            h1 {
+                font-family: 'Rajdhani', sans-serif;
+                font-weight: 700;
+                font-size: 35px;
+            }
+
+            .input-contact {
+                display: flex;
+                flex-direction: column;
+                margin-top: 0px;
+
+                input {
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    width: 500px;
+                    padding: 10px;
+                    margin: 10px 0px;
+
+                }
+
+                textarea {
+                    background-color: transparent;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    padding: 10px;
+                    margin: 10px 0px;
+                    width: 500px;
+                }
+
+                button {
+                    width: 525px;
+                    background-color: #183950;
+                    border: 1px solid white;
+                    border-radius: 3px;
+                    padding: 10px;
+                    margin: 10px 0px;
+                    color: white;
+                }
+
+            }
+        }
+
+        .gauche {
+            display: flex;
+            width: 50%;
+            height: 87%;
+            padding-right: 50px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
